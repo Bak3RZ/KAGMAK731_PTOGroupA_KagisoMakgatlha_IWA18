@@ -10,7 +10,7 @@
  * @param {Event} event 
  */
 
-// Import from nomudule scripts
+// import statement, the imported variables can be used in the current module without the need to redefine or import them
 import { html, createOrderHtml, moveToColumn, updateDraggingHtml, focus,} from "view.js";
 import { COLUMNS, createOrderData, state, updateDragging } from "data.js";  
 
